@@ -1,0 +1,7 @@
+state,district,total_enrolments,demo_updates,bio_updates,total_updates,updates_norm,enrol_norm,load_score,shortfall_pct,shortfall_pctile,priority,status,action,state_name
+AP,Krishna,8786,5266621138.0,12016343119.0,17282964257.0,1.5298217614341088,0.9495811942718184,1.611,0.05,66.7,3,Under-covered,Outreach required,Andhra Pradesh
+AP,Srikakulam,5569,3436942165.0,7568346640.0,11005288805.0,0.9741459887552076,0.6018913807079168,1.618,0.398,100.0,3,Under-covered,Outreach required,Andhra Pradesh
+TN,Dharmapuri,7083,1972293762.0,0.0,1972293762.0,0.17457988526628385,0.765522831667117,0.228,0.234,83.3,3,Under-covered,Outreach required,Tamil Nadu
+AP,Visakhapatnam,10606,4560921183.0,10319417045.0,14880338228.0,1.3171505130825119,1.1462847878951634,1.149,0.0,33.3,1,Healthy,Maintain,Andhra Pradesh
+TN,Chennai,12417,5098866486.0,11091814743.0,16190681229.0,1.4331370538207866,1.3420156714401512,1.068,0.0,33.3,1,Healthy,Maintain,Tamil Nadu
+TN,Coimbatore,11054,6452660716.0,0.0,6452660716.0,0.5711647976411016,1.194704134017833,0.478,0.0,33.3,1,Healthy,Maintain,Tamil Nadu

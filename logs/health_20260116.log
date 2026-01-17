@@ -1,0 +1,28 @@
+2026-01-16 23:54:12,220 | INFO    | Starting Aadhaar system health analysis...
+2026-01-16 23:54:12,221 | INFO    | Found 6 enrolment files
+2026-01-16 23:54:12,268 | INFO    | Processing 6 files for demo_updates
+2026-01-16 23:54:12,276 | ERROR   | Execution failed: 'Index' object has no attribute 'sum'
+Traceback (most recent call last):
+  File "C:\Users\tharun\AppData\Local\Temp\ipykernel_21524\3695065399.py", line 272, in main
+    master_df = build_master()
+  File "C:\Users\tharun\AppData\Local\Temp\ipykernel_21524\3695065399.py", line 170, in build_master
+    demo = process_updates("*aadhaar_demographic_updates.csv", "demo_updates")
+  File "C:\Users\tharun\AppData\Local\Temp\ipykernel_21524\3695065399.py", line 152, in process_updates
+    df["count"] = numeric_cols.sum(axis=1)
+                  ^^^^^^^^^^^^^^^^
+AttributeError: 'Index' object has no attribute 'sum'
+2026-01-16 23:56:48,464 | INFO    | Starting analysis...
+2026-01-16 23:56:48,467 | INFO    | Found 6 enrolment files
+2026-01-16 23:56:48,520 | INFO    | Processing 6 files for demo_updates
+2026-01-16 23:56:48,597 | INFO    | Processing 4 files for bio_updates
+2026-01-17 00:01:44,867 | INFO    | Starting Aadhaar Health Analysis
+2026-01-17 00:01:44,868 | INFO    | Found 6 enrolment files
+2026-01-17 00:01:44,913 | INFO    | Processing 6 files for demo_updates
+2026-01-17 00:01:44,971 | INFO    | Processing 4 files for bio_updates
+2026-01-17 00:01:45,046 | INFO    | CSV saved to ..\outputs\aadhaar_health_20260117_0001.csv
+2026-01-17 00:11:55,467 | INFO    | Starting Aadhaar Health Analysis
+2026-01-17 00:11:55,468 | INFO    | Found 6 enrolment files
+2026-01-17 00:11:55,581 | INFO    | CSV saved to ..\outputs\aadhaar_health_20260117_0011.csv
+2026-01-17 00:28:16,571 | INFO    | Starting Aadhaar Health Analysis
+2026-01-17 00:28:16,573 | INFO    | Found 6 enrolment files
+2026-01-17 00:28:16,727 | INFO    | CSV saved to ..\outputs\aadhaar_health_20260117_0028.csv
